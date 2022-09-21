@@ -4,6 +4,9 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.InputStreamReader;
 
+/**
+ * @author liuj
+ */
 public class CheckSysUtils {
     public static boolean isDeviceRooted() {
         return checkRootMethod1() || checkRootMethod2() || checkRootMethod3();
