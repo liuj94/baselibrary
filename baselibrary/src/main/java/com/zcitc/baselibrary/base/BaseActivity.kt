@@ -1,20 +1,18 @@
 package com.zcitc.baselibrary.base
 
 
-import android.app.ProgressDialog
 import android.content.res.Configuration
 import android.content.res.Resources
 import android.os.Bundle
-import android.text.method.Touch.onTouchEvent
 import android.view.InflateException
 import android.view.LayoutInflater
 import android.view.MotionEvent
 import androidx.appcompat.app.AppCompatActivity
-import androidx.databinding.DataBindingUtil.setContentView
 import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.Observer
 import androidx.viewbinding.ViewBinding
 import com.zcitc.baselibrary.CheckSysUtils
+import com.zcitc.baselibrary.ProgressDialog
 import com.zcitc.baselibrary.R
 import com.zcitc.baselibrary.SignCheck
 import com.zcitc.baselibrary.StatusBarUtil
